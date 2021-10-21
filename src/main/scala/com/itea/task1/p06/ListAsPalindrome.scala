@@ -2,7 +2,7 @@ package com.itea.task1.p06
 
 /**
  * Является ли список палиндромом.
- * @see http://aperiodic.net/phil/scala/s-99/p06.scala
+ * ( Палиндром - это слово или текст, одинаково читающееся в обоих направлениях )
  */
 
 class ListAsPalindrome {

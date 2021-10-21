@@ -4,6 +4,12 @@ import org.scalatest._
 import flatspec._
 import matchers._
 
+/**
+ * ScalaTest
+ * @see https://www.scalatest.org
+ *
+ * @see http://aperiodic.net/phil/scala/s-99/p06.scala
+ */
 class ListIsPalindromeSpec extends AnyFlatSpec with should.Matchers {
 
   "Palindrome" should "using built-in commands, should be true" in {
