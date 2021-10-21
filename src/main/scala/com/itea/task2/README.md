@@ -48,7 +48,7 @@
   нет необходимо реализовать кастомные Exception-классы для поведения бизнес-модели...
 
 
-### Валидаторы и бесплатные монады в Scala
+### Валидаторы и свободные монады в Scala
 
 * `Tutorial` https://dzone.com/articles/validation-for-free-in-scala
 * `Repo` https://github.com/michaelw123/validation
@@ -60,10 +60,3 @@
 
 * `Akka HTTP rest-example` https://github.com/ITEA-SCALA/akka-http-rest-example
 * `Scala Play anorm-example` https://github.com/ITEA-SCALA/play-scala-anorm-example
-
-
----
-
-[Шпаргалка по Markdown](https://github.com/sandino/Markdown-Cheatsheet)
-
-[Markdown-docs](https://gist.github.com/Jekins/2bf2d0638163f1294637)
