@@ -11,8 +11,8 @@ object ListIsPalindrome extends App {
   def isPalindrome[A](list: List[A]): Boolean = list == list.reverse
 
   println(
-    "isPalindrome (true) = " + isPalindrome(List(1, 2, 3, 2, 1)))
+    "isPalindrome (true) = " + isPalindrome(List(1, 2, 3, 2, 1)))  // isPalindrome (true) = true
   println(
-    "isPalindrome (false) = " + isPalindrome(List(1, 2, 3, 4, 5)))
+    "isPalindrome (false) = " + isPalindrome(List(1, 2, 3, 4, 5))) // isPalindrome (false) = false
 
 }
