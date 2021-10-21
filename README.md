@@ -6,4 +6,4 @@
 
 ---
 
-[Ссылка на запись 7 занятия](https://us02web.zoom.us/rec/share/K403f68Zz8_MDD1ktaSE73As4n9sI6JjtWNKSMYsT-O7mjOpRtDIy-GpZzgkApdw.fI9RWceHL4b3v3rd)
+[Ссылка на запись 8 занятия](https://us02web.zoom.us/rec/share/MhCUP09CEzc7EZxNyu85ut-qnSqRZfkXj3djDZXHLTeCkDmT143l2t56ZoFBYELs.r1XE9mi1J7D-sl5c)
