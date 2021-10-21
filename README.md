@@ -10,9 +10,9 @@
 # Dan Rosen: Scala Monads
 
 * В этом видеоуроке Дэн Розен покажет вам, как использовать возможности Scala для монадического проектирования, чтобы исключить повторяющийся шаблон в вашем коде.
-  * **(** [HelloScala1](https://github.com/ITEA-SCALA/HelloScala1) **)**  https://www.youtube.com/watch?v=Mw_Jnn_Y5iA
-  * `Tagir: Опциональные значения, Монады` **(** [HelloScala1~Main22](https://github.com/Home-SCALA3/MyHelloScala1/blob/master/src/main/scala/example/Main22.scala) **)** https://groz.github.io/scala/intro/monads
   * `Martin Odersky: Implicit Parameters with monads` **(** [HelloScala1~Main33](https://github.com/Home-SCALA3/MyHelloScala1/blob/master/src/main/scala/example/Main33.scala) **)** https://www.youtube.com/watch?v=ieo9pV-0zEY
+  * `Tagir: Опциональные значения, Монады` **(** [HelloScala1~Main22](https://github.com/Home-SCALA3/MyHelloScala1/blob/master/src/main/scala/example/Main22.scala) **)** https://groz.github.io/scala/intro/monads
+  * **(** [HelloScala1](https://github.com/ITEA-SCALA/HelloScala1) **)**  https://www.youtube.com/watch?v=Mw_Jnn_Y5iA  
 
 ---
 
