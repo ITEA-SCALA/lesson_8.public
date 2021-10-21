@@ -7,9 +7,11 @@ package com.itea.task1.p06
 
 class ListAsPalindrome {
   /*
+   * позволяет обрабатывать списки любого типа
+   * используем встроенные команды
    * проходит по списку дважды: один раз чтобы перевернуть его, и один раз чтобы проверить равенство
    */
-  def isPalindrome[A](list: List[A]): Boolean = list == list.reverse
+  def usingBuiltInCommands[A](list: List[A]): Boolean = list == list.reverse
 }
 
 object ListAsPalindrome {
