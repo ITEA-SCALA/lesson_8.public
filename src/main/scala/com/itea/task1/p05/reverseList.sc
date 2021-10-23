@@ -45,8 +45,16 @@ val l1 = List(2,3,4,5,6)
  * Также помните, что в Scala методы, имена которых заканчиваются на, : являются право-ассоциативными
  * Это означает, что 0 :: List(1,2,3) это сокращенная форма для List(1,2,3).::(0)
  */
-val res2 = List(1, 2, 3, 4) match {
-  case h :: tail => h
+val res21 = List(1, 2, 3, 4) match { //TODO   val res21: Any = 1
+  case (h :: tail) => h
+  case _ => Nil
+}
+val res22 = List(1, 2, 3, 4) match { //TODO   val res22: List[Int] = List(2, 3, 4)
+  case (h :: tail) => tail
+  case _ => Nil
+}
+val res23 = List(1, 2, 3, 4) match { //TODO   val res23: List[Int] = List(1, 2, 3, 4)
+  case l => l
   case _ => Nil
 }
 /*
@@ -79,9 +87,9 @@ val res3 = 5 match { //TODO   val res2: Int = 6
  * Но как уже объяснялось, этот код не является хвостовой рекурсией,
  * таким образом выделяется большое пространство стека для хранения локальных переменных во время рекурсивного вызова
  */
-def reverse2[A](l: List[A]): List[A] = l match {
-  case h :: tail => reverse2(tail) ::: List(h)
-  case Nil => Nil
+def reverse2[A] (ls: List[A]): List[A] = ls match {
+  case (h :: tail) => reverse2(tail) ::: List(h) //TODO   `List(2, 3, 4)` + `1`  ||  поскольку в Scala `return` компилятором выводится автоматом, поэтому в такой рекурсии возвращаться всегда будет case с не-нулевым значением...
+  case Nil => Nil //TODO   `Nil` - это всегда нулевой и последний элемент списка
 }
 
 reverse2( List(1,2,3,4,5,6) ) //TODO   val res4: List[Int] = List(6, 5, 4, 3, 2, 1)
