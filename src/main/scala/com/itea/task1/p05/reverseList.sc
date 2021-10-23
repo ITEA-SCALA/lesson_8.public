@@ -88,7 +88,7 @@ val res3 = 5 match { //TODO   val res2: Int = 6
  * таким образом выделяется большое пространство стека для хранения локальных переменных во время рекурсивного вызова
  */
 def reverse2[A] (ls: List[A]): List[A] = ls match {
-  case (h :: tail) => reverse2(tail) ::: List(h) //TODO   `List(2, 3, 4)` + `1`  ||  поскольку в Scala `return` компилятором выводится автоматом, поэтому в такой рекурсии возвращаться всегда будет case с не-нулевым значением...
+  case (h :: tail) => reverse2(tail) ::: List(h) //TODO   `List(2, 3, 4)` + `List(1)`  ||  поскольку в Scala `return` компилятором выводится автоматом, поэтому в такой рекурсии возвращаться всегда будет case с не-нулевым значением...
   case Nil => Nil //TODO   `Nil` - это всегда нулевой и последний элемент списка
 }
 
@@ -102,12 +102,12 @@ reverse2( List(1,2,3,4,5,6) ) //TODO   val res4: List[Int] = List(6, 5, 4, 3, 2,
  * Первое решение, наоборот, давало результат рекурсии в качестве входных данных для метода :::()
  * А при рекурсивном вызове в стеке не остается никаких вычислений
  */
-def reverse3[A](l: List[A]): List[A] = {
+def reverse3[A] (ls: List[A]): List[A] = {
   def _reverse(res: List[A], rem: List[A]): List[A] = rem match {
     case Nil => res
-    case h :: tail => _reverse(h :: res, tail)
+    case (h :: tail) => _reverse(h :: res, tail) //TODO   _reverse(`List(1)`, `List(2, 3, 4)`)
   }
-  _reverse(Nil, l)
+  _reverse(Nil, ls)
 }
 
 reverse3( List(1,2,3,4,5,6) ) //TODO   val res5: List[Int] = List(6, 5, 4, 3, 2, 1)
