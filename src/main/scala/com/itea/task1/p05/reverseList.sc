@@ -1,5 +1,6 @@
 /**
- * (99 Проблем в Scala) урок #05 - Перевернуть список
+ * (99 Проблем в Scala) Урок #05 - Перевернуть список
+ * @see https://www.thedigitalcatonline.com/blog/2015/04/07/99-scala-problems-05-reverse
  */
 
 /*
