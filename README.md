@@ -58,3 +58,14 @@
 [Ссылка на запись 8 занятия](https://us02web.zoom.us/rec/share/MhCUP09CEzc7EZxNyu85ut-qnSqRZfkXj3djDZXHLTeCkDmT143l2t56ZoFBYELs.r1XE9mi1J7D-sl5c)
 
 * `Scala Docs` https://github.com/Home-SCALA2/docs
+
+
+---
+
+* В Idea IntelliJ IDEA есть возможность редактировать несколько строк.
+  Использование: `Alt` + `Shift` + `Щелчок мышью`
+* В Idea IntelliJ IDEA есть возможность генерировать объявление переменной, которая будет соответствовать правостороннему выражению.
+  Использование: после правостороннего выражения нужно написать `.va` + `Щелчок Enter`
+* В Idea IntelliJ IDEA есть возможность использовать автоматическое форматирование: `CTRL` + `ALT` + `L`
+
+[Полезные комбинации в IntelliJ IDEA](https://otus.ru/nest/post/494)
