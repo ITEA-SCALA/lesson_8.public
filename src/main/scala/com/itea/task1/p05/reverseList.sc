@@ -112,3 +112,9 @@ def reverse3[A] (ls: List[A]): List[A] = {
 }
 
 reverse3( List(1,2,3,4,5,6) ) //TODO   val res5: List[Int] = List(6, 5, 4, 3, 2, 1)
+
+
+
+/*
+ * функция foldLeft() принимает предыдущий результат и текущий элемент...
+ */
