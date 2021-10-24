@@ -1,13 +1,13 @@
-package com.itea.monads
+package com.itea
 
 /**
  * @see https://blog.jetbrains.com/scala/2019/03/27/intellij-scala-plugin-2019-1-highlighting-for-comprehensions-find-usages-for-implicits-and-more
  */
 object EitherApp extends App {
 
-//
+  //
   val result: Either[Int, String] = Right(value = "Good value") //TODO  правая проекция параметризована двумя типами Int и String         case class Right[+A, +B] (value: B) extends Either[A, B]
-  val error: Either[Int, String] = Left(value = 500)            //TODO  и левая проекция тоже параметризована двумя типами Int и String   case class Left[+A, +B]  (value: A) extends Either[A, B]
+  val error: Either[Int, String] = Left(value = 500) //TODO  и левая проекция тоже параметризована двумя типами Int и String   case class Left[+A, +B]  (value: A) extends Either[A, B]
   /*
    * `Either` по умолчанию право-проекционный
    * на правильном значении (правой ветке) с ним можно что-то делать, например   .getOrElse("default")   будет проходить какая-то трансформация
@@ -35,17 +35,17 @@ object EitherApp extends App {
   (1 to 10).foreach(print) // эта конструкция
   println
   for (i <- 1 to 10) print(i) // и эта конструкция это одно и тоже
-//  (1 to 10).foreach(i => print(i)) // For в Scala это синтаксический сахар
-//  (1 to 10).foreach(print(_))
-//  (1 to 10).foreach(print)
+  //  (1 to 10).foreach(i => print(i)) // For в Scala это синтаксический сахар
+  //  (1 to 10).foreach(print(_))
+  //  (1 to 10).foreach(print)
 
   // map
-  (1 to 10).map(i => i * 2)       // map идет как последняя операция
-  for (i <- 1 to 10) yield i * 2  // syntax sugar for map - yield здесь как последняя операция - это одно и тоже
+  (1 to 10).map(i => i * 2) // map идет как последняя операция
+  for (i <- 1 to 10) yield i * 2 // syntax sugar for map - yield здесь как последняя операция - это одно и тоже
 
   // filter
-  (1 to 10).filter(i => i % 2 == 0)         // filter идет как последняя операция
-  for (i <- 1 to 10 if i % 2 == 0) yield i  // syntax sugar for filter - yield здесь как последняя операция - это одно и тоже
+  (1 to 10).filter(i => i % 2 == 0) // filter идет как последняя операция
+  for (i <- 1 to 10 if i % 2 == 0) yield i // syntax sugar for filter - yield здесь как последняя операция - это одно и тоже
   (1 to 10).withFilter(i => i % 2 == 0).map(i => i) // filter редкая и коварная операция, потому-что он определен не для всех основных классов
   /*
    * 1. чем filter отличается от withFilter:
@@ -56,14 +56,14 @@ object EitherApp extends App {
 
   // flatMap
   println
-//  (1 to 10)
-//  (1 to 10)
+  //  (1 to 10)
+  //  (1 to 10)
   // но в Scala так не получиться (как в Java)
-//  for (i <- 1 to 10) {
-//    for (j <- 1 to 10) {
-//      i * j
-//    }
-//  }
+  //  for (i <- 1 to 10) {
+  //    for (j <- 1 to 10) {
+  //      i * j
+  //    }
+  //  }
   for (i <- 1 to 10; j <- 1 to 10) yield i * j // вот так код можно встретить очень редко
 
   for { // чаще всего делают так
@@ -76,9 +76,9 @@ object EitherApp extends App {
     j <- 1 to 10
   } yield i * j
   //
-  (1 to 10).flatMap( i =>
-      (1 to 10).map(j => i * j),
-    )
+  (1 to 10).flatMap(i =>
+    (1 to 10).map(j => i * j),
+  )
   //
   (1 to 10).flatMap { i =>
     (1 to 10).map(j => i * j)
