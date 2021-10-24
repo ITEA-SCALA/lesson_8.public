@@ -95,7 +95,6 @@ object EitherApp extends App {
       (1 to 10).map(k => i * j * k)
     }
   }
-
   /*
    * TODO: Очень важно!!!
    * В Scala, какой бы класс не определяли-б с методом `flatMap`:
@@ -104,5 +103,23 @@ object EitherApp extends App {
    * + а выражение `for (без yield)` всегда можно использовать в качестве `foreach`
    */
 
+
+  // Optional - happy path
+  val opt1 = Some(1)
+  val opt2 = Some("str")
+  val opt3 = Some(true)
+
+  val valueOpt = for {
+    i <- opt1
+    j <- opt2
+    k <- opt3
+  } yield i + j + k
+  //
+  val option2: Option[Option[Option[String]]] = opt1.map(i => opt2.map(j => opt3.map(k => i + j + k)))
+  /*
+   * потому что `map` возвращает `def map[B](f: A => B): Option[B]` и таким способом они накрутят вложенный Option во вложенный во вложенный...
+   * а чтобы такого не было, для этого нужен `flatMap`
+   */
+  val option3: Option[String] = opt1.flatMap(i => opt2.flatMap(j => opt3.map(k => i + j + k)))
 
 }
