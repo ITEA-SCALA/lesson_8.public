@@ -58,12 +58,8 @@
 * `Конспект по Scala with Cats`: https://blog.maizy.ru/posts/scala-cats-summary
 * `Lightbend for Scala`: https://github.com/ITEA-SCALA/LessonCatsZIO
 
-
----
-
-[Ссылка на запись 8 занятия](https://us02web.zoom.us/rec/share/MhCUP09CEzc7EZxNyu85ut-qnSqRZfkXj3djDZXHLTeCkDmT143l2t56ZoFBYELs.r1XE9mi1J7D-sl5c)
-
-* `Scala Docs` https://github.com/Home-SCALA2/docs
+[Практический пример с CodersBistro](https://github.com/ITEA-SCALA/lesson_4.public)
+**(** [CodersBistro: akka-http-REST-application](https://github.com/CodersBistro/akka-http-REST-application) **)**
 
 
 ---
@@ -74,7 +70,11 @@
   Использование: после правостороннего выражения нужно написать `.va` + `Щелчок Enter`
 * В Idea IntelliJ IDEA есть возможность использовать автоматическое форматирование: `CTRL` + `ALT` + `L`
 * В Idea IntelliJ IDEA есть возможность использовать конвертер синтаксического сахар (Desugar Scala Code...): `CTRL` + `ALT` + `D` 
+* **(** [Полезные комбинации в IntelliJ IDEA](https://otus.ru/nest/post/494) **)**
 
-[Полезные комбинации в IntelliJ IDEA](https://otus.ru/nest/post/494)
 
-[Практический пример с codersbistro](https://github.com/ITEA-SCALA/lesson_4.public)
+---
+
+[Ссылка на запись 8 занятия](https://us02web.zoom.us/rec/share/MhCUP09CEzc7EZxNyu85ut-qnSqRZfkXj3djDZXHLTeCkDmT143l2t56ZoFBYELs.r1XE9mi1J7D-sl5c)
+
+* `Scala Docs` https://github.com/Home-SCALA2/docs
