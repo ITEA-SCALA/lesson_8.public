@@ -53,6 +53,12 @@
   * `Martin Odersky: Implicit Parameters` **(** [HelloScala1~Main33](https://github.com/Home-SCALA3/MyHelloScala1/blob/master/src/main/scala/example/Main33.scala) **)** https://www.youtube.com/watch?v=ieo9pV-0zEY
   * **(** [HelloScala1](https://github.com/ITEA-SCALA/HelloScala1) **)**  https://www.youtube.com/watch?v=Mw_Jnn_Y5iA  
 
+## Scala with Cats (Scala – Introduction to Cats)
+
+* `Конспект по Scala with Cats`: https://blog.maizy.ru/posts/scala-cats-summary
+* `Lightbend for Scala`: https://github.com/ITEA-SCALA/LessonCatsZIO
+
+
 ---
 
 [Ссылка на запись 8 занятия](https://us02web.zoom.us/rec/share/MhCUP09CEzc7EZxNyu85ut-qnSqRZfkXj3djDZXHLTeCkDmT143l2t56ZoFBYELs.r1XE9mi1J7D-sl5c)
