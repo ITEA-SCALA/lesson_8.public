@@ -70,3 +70,5 @@
 * В Idea IntelliJ IDEA есть возможность использовать конвертер синтаксического сахар (Desugar Scala Code...): `CTRL` + `ALT` + `D` 
 
 [Полезные комбинации в IntelliJ IDEA](https://otus.ru/nest/post/494)
+
+[Практический пример с codersbistro](https://github.com/ITEA-SCALA/lesson_4.public)
