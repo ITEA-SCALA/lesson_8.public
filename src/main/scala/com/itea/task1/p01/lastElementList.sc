@@ -37,14 +37,20 @@ def func[A] (ls: List[A]): A = {
  */
 def last1[A] (ls: List[A]): A = ls.last
 
+last1( List(0,1,2,3,4,5,6) ) // val res0: Int = 6
+
 
 /*
  * Рекурсивное решение
  * ***
+ * Первый шаблон делит список на две части: один элемент головы и хвост (Nil)
  *
+ * Второй шаблон берет только хвост списка (а первый элемент он игнорируется используя подстановочный знак `_`) и рекурсивно вызывает себя для оставшихся элементов
  */
 def last2[A] (ls: List[A]): A = ls match {
-  case (h :: Nil) => h
+  case (head :: Nil) => head
   case (_ :: tail) => last2(tail)
   case _ => throw new NoSuchElementException
 }
+
+last2( List(0,1,2,3,4,5,6) ) // val res1: Int = 6
