@@ -2,6 +2,7 @@ package com.itea
 
 /**
  * @see https://blog.jetbrains.com/scala/2019/03/27/intellij-scala-plugin-2019-1-highlighting-for-comprehensions-find-usages-for-implicits-and-more
+ *      https://blog.maizy.ru/posts/scala-cats-summary
  */
 object EitherApp extends App {
 
