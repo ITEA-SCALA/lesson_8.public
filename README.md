@@ -71,7 +71,7 @@
 * В Idea IntelliJ IDEA есть возможность использовать автоматическое форматирование: `CTRL` + `ALT` + `L`
 * В Idea IntelliJ IDEA есть возможность использовать конвертер синтаксического сахар (Desugar Scala Code...): `CTRL` + `ALT` + `D` 
 * **(** [Полезные комбинации в IntelliJ IDEA](https://otus.ru/nest/post/494) **)**
-* **(** [Полезные комбинации в IntelliJ IDEA](https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html#EditorBasics) **)**
+* **(** [Полезные комбинации в IntelliJ IDEA](https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html) **)**
 
 ---
 
