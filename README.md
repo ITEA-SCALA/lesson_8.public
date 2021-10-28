@@ -58,7 +58,7 @@
 
 * `Конспект по Scala with Cats`: https://blog.maizy.ru/posts/scala-cats-summary
 * `Lightbend for Scala`: https://github.com/ITEA-SCALA/LessonCatsZIO
-* [Noel Welsh and Dave Gurnell: Scala with Cats](https://fpspecialty.github.io/scala-with-cats/scala-with-cats.html)
+* `Noel Welsh and Dave Gurnell: Scala with Cats`: https://fpspecialty.github.io/scala-with-cats/scala-with-cats.html
 
 [Практический пример с CodersBistro](https://github.com/ITEA-SCALA/lesson_4.public)
 **(** [CodersBistro: akka-http-REST-application](https://github.com/CodersBistro/akka-http-REST-application) **)**
