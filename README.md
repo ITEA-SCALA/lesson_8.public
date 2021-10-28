@@ -55,8 +55,8 @@
 
 ## Scala with Cats (Scala – Introduction to Cats)
 
-* `Конспект по Scala with Cats` (ru): https://blog.maizy.ru/posts/scala-cats-summary
-* `Noel Welsh and Dave Gurnell: Scala with Cats` (ru): https://fpspecialty.github.io/scala-with-cats/scala-with-cats.html
+* `Конспект по Scala with Cats` (Ru): https://blog.maizy.ru/posts/scala-cats-summary
+* `Noel Welsh and Dave Gurnell: Scala with Cats` (Ru): https://fpspecialty.github.io/scala-with-cats/scala-with-cats.html
   * https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/KtbxLvHgRFNsWGQDLNTjRKkCQjgxmhNWsB
 * `Lightbend for Scala`: https://github.com/ITEA-SCALA/LessonCatsZIO
 
