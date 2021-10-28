@@ -51,12 +51,14 @@
 * В этом видеоуроке Дэн Розен покажет вам, как использовать возможности Scala для монадического проектирования, чтобы исключить повторяющийся шаблон в вашем коде.
   * `Tagir: Опциональные значения, Монады` **(** [HelloScala1~Main22](https://github.com/Home-SCALA3/MyHelloScala1/blob/master/src/main/scala/example/Main22.scala) **)** https://groz.github.io/scala/intro/monads
   * `Martin Odersky: Implicit Parameters` **(** [HelloScala1~Main33](https://github.com/Home-SCALA3/MyHelloScala1/blob/master/src/main/scala/example/Main33.scala) **)** https://www.youtube.com/watch?v=ieo9pV-0zEY
-  * **(** [HelloScala1](https://github.com/ITEA-SCALA/HelloScala1) **)**  https://www.youtube.com/watch?v=Mw_Jnn_Y5iA  
+  * **(** [HelloScala1](https://github.com/ITEA-SCALA/HelloScala1) **)**  https://www.youtube.com/watch?v=Mw_Jnn_Y5iA
+    * https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/KtbxLvHgRFNsWGQDLNTjRKkCQjgxmhNWsB
 
 ## Scala with Cats (Scala – Introduction to Cats)
 
 * `Конспект по Scala with Cats`: https://blog.maizy.ru/posts/scala-cats-summary
 * `Lightbend for Scala`: https://github.com/ITEA-SCALA/LessonCatsZIO
+* [Noel Welsh and Dave Gurnell: Scala with Cats](https://fpspecialty.github.io/scala-with-cats/scala-with-cats.html)
 
 [Практический пример с CodersBistro](https://github.com/ITEA-SCALA/lesson_4.public)
 **(** [CodersBistro: akka-http-REST-application](https://github.com/CodersBistro/akka-http-REST-application) **)**
